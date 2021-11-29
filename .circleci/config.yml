@@ -80,7 +80,7 @@ jobs:
             sudo pip3 install awsebcli
       - run:
           name: Deploying
-          command: eb deploy Test8-env
+          command: eb deploy
 workflows:
   version: 2
   build:
